@@ -19,5 +19,5 @@ require (
 
 replace (
 	sigs.k8s.io/kustomize/kstatus v0.0.1 => ../../kstatus
-	sigs.k8s.io/kustomize/kyaml v0.0.0 => ../../kyaml
+	sigs.k8s.io/kustomize/kyaml v0.0.2 => ../../kyaml
 )

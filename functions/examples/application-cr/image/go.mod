@@ -11,3 +11,5 @@ require (
 	sigs.k8s.io/kustomize/kyaml v0.1.1-0.20200227221838-a24cc4d305f4
 	sigs.k8s.io/yaml v1.1.0
 )
+
+replace sigs.k8s.io/kustomize/kyaml => ../../../../kyaml
