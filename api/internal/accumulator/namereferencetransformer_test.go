@@ -8,11 +8,11 @@ import (
 	"testing"
 
 	"sigs.k8s.io/kustomize/api/internal/plugins/builtinconfig"
-	"sigs.k8s.io/kustomize/api/k8sdeps/kunstruct"
 	"sigs.k8s.io/kustomize/api/resid"
 	"sigs.k8s.io/kustomize/api/resmap"
 	"sigs.k8s.io/kustomize/api/resource"
 	resmaptest_test "sigs.k8s.io/kustomize/api/testutils/resmaptest"
+	"sigs.k8s.io/kustomize/kubedeps/kunstruct"
 )
 
 func TestNameReferenceHappyRun(t *testing.T) {

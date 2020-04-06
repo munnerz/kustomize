@@ -7,10 +7,11 @@ import (
 	"sort"
 	"strings"
 
-	"sigs.k8s.io/kustomize/api/k8sdeps/kunstruct"
+	"sigs.k8s.io/yaml"
+
 	"sigs.k8s.io/kustomize/api/konfig"
 	"sigs.k8s.io/kustomize/api/types"
-	"sigs.k8s.io/yaml"
+	"sigs.k8s.io/kustomize/kubedeps/kunstruct"
 )
 
 var fileReader = kunstruct.NewKunstructuredFactoryImpl()
