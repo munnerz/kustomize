@@ -67,4 +67,4 @@
 //
 // This package is the code in (3), meant for kustomize.
 
-package k8sdeps
+package kubedeps
